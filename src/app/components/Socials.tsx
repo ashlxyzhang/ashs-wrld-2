@@ -1,9 +1,7 @@
-// import svgs from "./SVG";
-
-import Email from "../assets/Email";
-import GitHub from "../assets/GitHub";
-import Instagram from "../assets/Instagram";
-import LinkedIn from "../assets/LinkedIn";
+import Email from "../assets/SVG/Email";
+import GitHub from "../assets/SVG/GitHub";
+import Instagram from "../assets/SVG/Instagram";
+import LinkedIn from "../assets/SVG/LinkedIn";
 
 export default function Socials() {
   return (

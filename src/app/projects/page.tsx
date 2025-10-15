@@ -1,6 +1,8 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Socials from "../components/Socials";
+import Project from "../components/Project";
+import projectData from "../assets/Projects";
 
 export default function Projects() {
   return (
@@ -13,10 +15,10 @@ export default function Projects() {
           <div className="md:w-8/12">
             {projectData.map((project, index) =>
               index != projectData.length - 1 ? (
-                <>
+                <div key={index}>
                   <Project {...project} number={index + 1} />
-                  <hr className="m-8" />
-                </>
+                  <hr className="m-4" />
+                </div>
               ) : (
                 <Project {...project} number={index + 1} key={index} />
               )

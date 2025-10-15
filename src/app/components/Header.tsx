@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SvgGlobe from "../assets/SvgGlobe";
+import Globe from "../assets/SVG/Globe";
 
 export default function Header() {
   return (
@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex gap-3 items-center">
         <p className="hidden md:block lg:block">Ash&rsquo;s World</p>
         <Link href="/">
-          <SvgGlobe className="w-6 h-6 fill-none stroke-2 stroke-orange hover:stroke-dark-orange" />
+          <Globe className="w-6 h-6 fill-none stroke-2 stroke-orange hover:stroke-dark-orange" />
         </Link>
       </div>
       <div className="flex gap-4 sm:gap-8">
