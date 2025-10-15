@@ -22,7 +22,9 @@ export default function Header() {
         >
           Resume
         </a>
-        <button className="hover:text-orange">Blender</button>
+        <Link className="hover:text-orange" href="/blender">
+          Blender
+        </Link>
       </div>
     </nav>
   );
